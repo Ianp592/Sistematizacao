@@ -2,6 +2,7 @@
 int main() {
  int a, b;
  char op;
+ printf("=== Calculadora ===\n");
  printf("Digite a operacao (ex: 2 + 2): ");
  scanf("%d %c %d", &a, &op, &b);
  switch(op) {
